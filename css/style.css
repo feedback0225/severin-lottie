@@ -3850,7 +3850,7 @@ section {
 
 @media screen and (max-width: 768px) {
   .clients_partners {
-    padding: 0 0 70px 0;
+    padding: 0 0 120px 0;
   }
 }
 
@@ -4371,7 +4371,7 @@ section {
 }
 
 .questions__icon:not(:last-child) {
-  margin-right: 37px;
+  margin-right: 65px;
 }
 
 @media screen and (max-width: 640px) {
@@ -5834,7 +5834,8 @@ input[type="number"] {
   margin-bottom: 47px;
 }
 
-.watch__title span {
+.watch__title span:not(.watch__title-room), 
+.watch__title-red {
   color: #fc0d1b;
 }
 
@@ -5868,7 +5869,7 @@ input[type="number"] {
 @media screen and (max-width: 640px) {
   .watch__right {
     margin: 0 0 60px 0;
-    padding-bottom: 400px;
+    padding-bottom: 385px;
   }
 }
 
@@ -6078,7 +6079,7 @@ input[type="number"] {
 @media screen and (max-width: 640px) {
   .watch_digital ul li:before {
     width: 15px;
-    height: 1px;
+    height: 2px;
     top: 10px;
   }
 }
@@ -9753,7 +9754,7 @@ input[type="number"] {
 
 @media screen and (max-width: 768px) {
   .projects {
-    padding: 70px 0;
+    padding: 120px 0 70px 0;
   }
 }
 
@@ -10545,9 +10546,9 @@ input[type="number"] {
 .popup_fail .popup__left {
   padding: 0;
   display: flex;
-  text-align: center;
+  /* text-align: center; */
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .popup_fail .popup__left > span {
@@ -11922,6 +11923,12 @@ input {
 @media screen and (max-width: 640px) {
   .use__left p {
     margin-bottom: 20px;
+  }
+  .clients_partners{
+    padding: 0 0 70px 0;
+  }
+  .projects {
+    padding: 70px 0;
   }
 }
 
@@ -13607,6 +13614,17 @@ input {
   top: -20px;
 }
 
+/* @media (min-width: 1441px) {
+  .questions__icon .lottie-containe svg{
+    width: 220px !important;
+    height: 220px !important;
+    left: -40px !important;
+  }
+  .questions__icon-wrap{
+    margin-bottom: 40px;
+  }
+} */
+
 @media (max-width: 640px) {
   .services-animation-mobile .services-animation__cont .icon {
     margin-bottom: 20px;
@@ -13869,7 +13887,7 @@ input {
 
 @media (max-width: 400px) {
   .watch__right {
-    padding-bottom: 300px;
+    padding-bottom: 100%;
   }
 
   .scheme-slider__slide img,
@@ -13886,8 +13904,15 @@ input {
   .popup_fail .popup__left {
     text-align: left;
   }
+  .watch_commercial .watch__title {
+    max-width: 370px !important;
+  }
 }
 
 .watch_commercial .watch__title{
   max-width: 570px;
+}
+
+.watch__title-room{
+  display: inline-block;
 }
