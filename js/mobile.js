@@ -40,9 +40,9 @@ window.onload = () => {
     }
     if (
       e.target.documentElement.scrollHeight -
-        e.target.documentElement.scrollTop -
-        window.innerHeight <
-        $("footer").height() - 400 &&
+      e.target.documentElement.scrollTop -
+      window.innerHeight <
+      $("footer").height() - 400 &&
       $(window).width() < 1024
     ) {
       $(".services-animation-mobile").css("opacity", "0");
