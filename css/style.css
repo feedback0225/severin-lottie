@@ -181,6 +181,9 @@ img {
     background: #fc0d1b;
     height: 70px;
   }
+  .development__item-right .video-poster img{
+    height: 50%;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -4272,7 +4275,7 @@ section {
 .questions__right {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin-top: 120px;
 }
 
@@ -4303,8 +4306,8 @@ section {
 
 .questions__icon-wrap > img {
   max-width: 100%;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
 }
 
 @media screen and (min-width: 1025px) {
@@ -5856,7 +5859,7 @@ input[type="number"] {
 .watch__right {
   flex: 1 1 50%;
   position: relative;
-  padding-bottom: 48.75%;
+  padding-bottom: 48.29%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -6171,6 +6174,7 @@ input[type="number"] {
 @media screen and (max-width: 1024px) {
   .watch_industrial2 .watch__headline {
     position: relative;
+    margin-top: 20px;
     margin-bottom: 60px;
   }
 
@@ -8652,7 +8656,7 @@ input[type="number"] {
     font-size: 16px;
   }
   .reviews__h3 {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
   }
 }
 
@@ -11269,8 +11273,9 @@ input {
 }
 
 .popup__right {
-  flex: 1 1 41.5%;
+  flex: 1 1 25%;
   display: flex;
+  margin-left: 50px;
   align-items: center;
   justify-content: center;
 }
@@ -12856,8 +12861,9 @@ input {
 }
 
 .development .container .development__item .development__item-left {
-  margin-right: 40px;
-  max-width: 50%;
+  margin-right: 20px;
+  flex: 0 1 50%;
+  /* max-width: 50%; */
 }
 
 .development .container .development__item .development__item-left-nosticki {
@@ -12930,9 +12936,14 @@ input {
 .development .container .development__item .development__item-right {
   margin-top: 84px;
   width: 570px;
-  margin-left: 16px;
+  margin-left: 20px;
   width: 100%;
-  flex: 0 0 570px;
+  flex: 0 1 50%;
+}
+@media (max-width: 1600px) {
+  .development .container .development__item .development__item-right{
+    margin-left: 10px;
+}
 }
 
 @media (max-width: 920px) {
@@ -13738,6 +13749,15 @@ input {
   }
 }
 
+@media (max-width: 1024px) {
+  .watch.watch_digital.watch_industrial3 .watch__right {
+    height: 688px;
+    flex: 0 0 688px;
+  }
+  .watch.watch_digital.watch_industrial3 .watch__right img{
+    height: 100%;
+  }
+}
 @media (max-width: 640px) {
   .industries_epc .industries__item > a {
     font-size: 18px;
@@ -13809,7 +13829,7 @@ input {
 @media (max-width: 520px) {
   .services-animation-mobile .services-animation__cont .swiper-pagination {
     width: 100%;
-    bottom: 120px;
+    bottom: 100px;
     top: unset;
     left: 0;
     flex-direction: row;
@@ -13900,6 +13920,7 @@ input {
   width: 100%;
 }
 
+
 @media (max-width: 767px) {
   .popup_fail .popup__left {
     text-align: left;
@@ -13915,4 +13936,11 @@ input {
 
 .watch__title-room{
   display: inline-block;
+}
+
+
+@media (max-width: 768px) {
+  .development .container .development__item .development__item-right .video {
+    height: 50%;
+  }
 }
