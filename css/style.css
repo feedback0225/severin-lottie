@@ -182,7 +182,7 @@ img {
     height: 70px;
   }
   .development__item-right .video-poster img{
-    height: 50%;
+    height: 580px;
   }
 }
 
@@ -3703,7 +3703,7 @@ section {
 
 @media (max-width: 640px) {
   .team_industrial .team__main {
-    padding-bottom: 300px;
+    padding-bottom: 100%;
   }
 }
 
@@ -3754,6 +3754,9 @@ section {
   .team_industrial .team__play img {
     width: 15px;
     height: 15px;
+  }
+  .watch.watch_digital.watch_industrial3 .watch__right{
+    flex: 1 1 100% !important;
   }
 }
 
@@ -5826,7 +5829,7 @@ input[type="number"] {
 }
 
 .watch_industrial2 .watch__left__new2 .watch__headline {
-  top: -62px;
+  top: -92px;
 }
 
 .watch__title {
@@ -5859,7 +5862,7 @@ input[type="number"] {
 .watch__right {
   flex: 1 1 50%;
   position: relative;
-  padding-bottom: 48.29%;
+  padding-bottom: 48.72%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -6000,7 +6003,7 @@ input[type="number"] {
 
 @media screen and (max-width: 1024px) {
   .watch_digital {
-    padding-bottom: 120px;
+    padding-bottom: 96px;
   }
 
   .watch.watch_commercial.watch_commercial2 {
@@ -6011,15 +6014,26 @@ input[type="number"] {
 
 @media screen and (max-width: 640px) {
   .watch_digital {
-    padding-bottom: 80px;
+    padding-bottom: 40px;
+  }.team_industrial{
+    padding-bottom: 30px;
   }
 }
 
 .watch_digital .watch__left {
-  margin-right: 40px;
+  margin-right: 30px;
   padding-right: 0;
 }
 
+@media screen and (max-width: 1440px) {
+
+  .watch_digital .watch__left {
+    margin-right: 15px;
+  }
+  .watch__right{
+    margin-left: 15px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .watch_digital .watch__left {
     margin: 0 0 40px 0;
@@ -6174,7 +6188,7 @@ input[type="number"] {
 @media screen and (max-width: 1024px) {
   .watch_industrial2 .watch__headline {
     position: relative;
-    margin-top: 20px;
+    margin-top: 96px;
     margin-bottom: 60px;
   }
 
@@ -6310,7 +6324,10 @@ input[type="number"] {
 
 @media screen and (max-width: 640px) {
   .watch_commercial {
-    padding: 50px 0 70px;
+    padding: 50px 0 40px;
+  }
+  .questions__icon-wrap{
+    margin-bottom: 30px;
   }
 }
 
@@ -9623,7 +9640,7 @@ input[type="number"] {
 
 @media screen and (max-width: 640px) {
   .building__right ul li::before {
-    height: 1px;
+    height: 1px !important;
     width: 15px;
     margin-right: 7px;
   }
@@ -12113,6 +12130,9 @@ input {
   .use__slide span {
     font-size: 24px;
   }
+  .watch_industrial2 .watch__headline{
+    margin-top: 40px !important;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -12870,9 +12890,12 @@ input {
   position: unset;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1599px) {
   .development .container .development__item .development__item-left {
-    margin-right: 30px;
+    margin-right: 15px;
+  }
+  .development .container .development__item .development__item-right{
+    margin-left: 15px !important;
   }
 }
 
@@ -12942,7 +12965,7 @@ input {
 }
 @media (max-width: 1600px) {
   .development .container .development__item .development__item-right{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 }
 
@@ -13931,7 +13954,7 @@ input {
 }
 
 .watch_commercial .watch__title{
-  max-width: 570px;
+  max-width: 700px;
 }
 
 .watch__title-room{
