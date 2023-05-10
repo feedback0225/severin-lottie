@@ -12965,7 +12965,7 @@ input {
 }
 @media (max-width: 1600px) {
   .development .container .development__item .development__item-right{
-    margin-left: 20px;
+    margin-left: 15px;
 }
 }
 
@@ -13966,4 +13966,10 @@ input {
   .development .container .development__item .development__item-right .video {
     height: 50%;
   }
+}
+
+@media (max-width: 1601px) {
+.development .container .development__item .development__item-left{
+  margin-right: 15px;
+}
 }

@@ -202,6 +202,7 @@ const myImageSlider4 = new Swiper('.half-slider', {
 	breakpoints: {
 		320: {
 			slidesPerView: 1.05,
+			slidesPerView: 1,
 			spaceBetween: 15,
 		},
 		481: {
@@ -321,7 +322,7 @@ const myImageSlider6 = new Swiper('.use__slider', {
 			const index_currentSlide = myImageSlider6.realIndex;
 			console.log(index_currentSlide);
 			let items = document.getElementsByClassName("use__item")
-			for(let i = 0; i < items.length; i++) {
+			for (let i = 0; i < items.length; i++) {
 				items[i].classList.remove("_active")
 			}
 			items[index_currentSlide].classList.add("_active")
