@@ -5874,7 +5874,7 @@ input[type="number"] {
 
 @media screen and (max-width: 640px) {
   .watch__right {
-    margin: 0 0 60px 0;
+    margin: 0 0 60px 0 !important;
     padding-bottom: 385px;
   }
 }
