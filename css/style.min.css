@@ -1214,7 +1214,7 @@ p:not(:first-of-type) {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 100;
 }
 @media screen and (max-width: 480px) {
   .header {
